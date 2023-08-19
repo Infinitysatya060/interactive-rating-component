@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERACTIVE RATING COMPONENT</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- RATING COMPONENT -->
+    <div class="main-container disable">
+        <div class="circle">
+            <img src="images/icon-star.svg" alt="">
+        </div>
+        <h1>How did We Do?</h1>
+        <p>Please let us know how we did with your support request.All feedback are appriciated to help us improving our offering!</p>
+        <div class="rate-section">
+            <button type="button" class="btn2">1</button>
+            <button type="button" class="btn2">2</button>
+            <button type="button" class="btn2">3</button>
+            <button type="button" class="btn2">4</button>
+            <button type="button" class="btn2">5</button>
+        </div>
+        <button type="button" class="btn" id="submit">Submit</button>
+         
+    </div>
+    <!-- THANK YOU COMPONENT -->
+    <div class="thank-you hidden">
+        <img src="images/illustration-thank-you.svg" alt="">
+        <div class="ratehere">
+
+            <p>You selected <span id="rating">0</span> out of 5</p>
+        </div>
+        <h2>Thank You!</h2>
+        <p>We appriciate you taking the time to give a rating.If you ever need more support,don't hesitate to get in touch.</p>
+        <button class="btn" id="ratenow">Rating Again</button>    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
